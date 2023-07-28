@@ -1,4 +1,5 @@
-import pyperclip, re
+import pyperclip
+import re
 
 
 def email_finder():
@@ -9,13 +10,11 @@ def email_finder():
         (\.[a-zA-Z]{2,4}){1,2} 
         )''', re.VERBOSE)
 
-
     text = str(pyperclip.paste())
     matches = []
 
     for groups in email.findall(text):
         matches.append(groups[0])
-
 
     if len(matches) > 0:
         pyperclip.copy('\n'.join(matches))
@@ -23,6 +22,7 @@ def email_finder():
         print('\n'.join(matches))
     else:
         print('No e-mail address was found.')
+
 
 if __name__ == "__main__":
     email_finder()

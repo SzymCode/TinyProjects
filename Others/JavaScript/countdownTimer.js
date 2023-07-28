@@ -1,8 +1,5 @@
-<p id="countdown"></p>
-
-<script>
 var countDownDate = new Date("Nov 18, 2023 00:00:00").getTime();
-var x = setInterval(function() 
+var x = setInterval(function()
 {
   var now = new Date().getTime();
   var distance = countDownDate - now;
@@ -17,4 +14,3 @@ var x = setInterval(function()
     document.getElementById("countdown").innerHTML = "EXPIRED";
   }
 }, 1000);
-</script>

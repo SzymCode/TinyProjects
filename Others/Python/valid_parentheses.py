@@ -1,5 +1,4 @@
 def valid_parentheses(string):
-  
     mylist = []
     for s in string:
         if s == '(':
@@ -14,4 +13,3 @@ def valid_parentheses(string):
         return True
     else:
         return False
-      
