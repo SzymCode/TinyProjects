@@ -14,7 +14,7 @@ function toCamelCase(str) {
       str = str.replace(`_${str[index + 1]}`, str[index + 1].toUpperCase());
       str = str.replace(`-${str[index + 1]}`, str[index + 1].toUpperCase());
       i++;
-    }
+    };
     return str;
-  }
+  };
 }

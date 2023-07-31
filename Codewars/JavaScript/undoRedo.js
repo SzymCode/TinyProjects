@@ -15,7 +15,7 @@ function undoRedo(obj) {
       r.push(a[0] in obj ? [a[0], obj[a[0]]] : [a[0]]);
       if (a.length == 1) delete obj[a[0]];
       else obj[a[0]] = a[1];
-    }
+    };
     return a;
   }
 
