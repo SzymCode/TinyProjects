@@ -7,6 +7,7 @@ Tiny projects that were made for educational purposes.
   <tr>
     <td align="center">Codewars</td>
     <td align="center">Others</td>
+    <td align="center">SPOJ</td>
   </tr>
   <tr>
     <td align="center">
@@ -31,6 +32,15 @@ Tiny projects that were made for educational purposes.
         <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cplusplus/cplusplus-original.svg" height="32" alt="cplusplus logo"  />
       </a>  
     </td>
+    <td align="center"> 
+      <a href="https://github.com/SzymCode/TinyProjects/tree/main/SPOJ/Python">
+       <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" height="32" alt="python logo"  />
+      </a>
+      <a href="https://github.com/SzymCode/TinyProjects/tree/main/SPOJ/C++">
+        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cplusplus/cplusplus-original.svg" height="32" alt="cplusplus logo"  />
+      </a>  
+    </td>
+
   </tr>
 </table>
 
