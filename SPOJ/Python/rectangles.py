@@ -1,6 +1,5 @@
 # https://www.spoj.com/problems/AE00/
 
-from cmath import sqrt
 import math
 
 n = int(input())
