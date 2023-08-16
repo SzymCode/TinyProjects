@@ -1,0 +1,54 @@
+<div class="container">
+  <div class="large-leaf left"></div>
+  <div class="large-leaf right"></div>
+  <div class="small-leaf left"></div>
+  <div class="small-leaf right"></div>
+</div>
+
+<style>
+  * {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+  .container {
+    background: #998235;
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+  }
+  .large-leaf, .small-leaf {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+  }
+  .large-leaf {
+    background: #1a4341;
+    width: 100px;
+    height: 80px;
+  }
+  .large-leaf.left {
+    border-top-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+    transform: translate(calc(-50% - 50px), calc(-50% - 40px)) rotate(90deg);
+  }
+  .large-leaf.right {
+    border-top-right-radius: 50px;
+    border-bottom-left-radius: 50px;
+    transform: translate(calc(-50% + 50px), calc(-50% + 40px)) rotate(90deg);
+  }
+  .small-leaf {
+    background: #f3ac3c;
+    width: 80px;
+    height: 60px;
+  }
+  .small-leaf.left {
+    border-top-right-radius: 50px;
+    border-bottom-left-radius: 50px;
+    transform: translate(calc(-50% - 50px), calc(-50% + 60px));
+  }
+  .small-leaf.right {
+    border-top-left-radius: 50px;
+    border-bottom-right-radius: 50px;transform: translate(calc(-50% + 50px), calc(-50% - 60px));
+  }
+</style>

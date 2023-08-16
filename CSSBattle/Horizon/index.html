@@ -1,0 +1,40 @@
+<div class="container">
+  <div class="layer one"></div>
+  <div class="layer two"></div>
+  <div class="layer three"></div>
+  <div class="layer four"></div>
+</div>
+<style>
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  .container {
+    width: 100vw;
+    height: 100vh;
+    display: grid;
+    grid-template-rows: repeat(1fr, 6);
+  }
+  .layer {
+    width: 100%;
+  }
+  .one {
+    background: #F7EC7D;
+  }
+  .two {
+    background: #E38F66;
+  }
+  .three {
+    background: #AA445F;
+  }
+  .four {
+    background: #62306D;
+  }
+  .one, .two {
+    grid-row: span 1;
+  }
+  .three, .four {
+    grid-row: span 2;
+  }
+</style>
